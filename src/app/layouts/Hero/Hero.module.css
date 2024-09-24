@@ -1,0 +1,14 @@
+.hero{
+    background: url("../../../../public/bgHero.jpg") no-repeat center/cover;
+    width: 100dvw;
+    height: 100dvh;
+
+    display: grid;
+    place-items: center;
+}
+
+.button{
+    height: 5.072vw;
+    margin-bottom: 10dvw;
+}
+

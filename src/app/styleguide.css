@@ -1,0 +1,21 @@
+section{
+    padding-inline: 1.875vw;
+}
+body{
+    background-color: #000;
+}
+h1{
+    font-size: 8.177vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h1.small{
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 0.977vw;
+}

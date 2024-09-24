@@ -1,0 +1,105 @@
+.grids{
+    margin-top: 6.146vw;
+    display: flex;
+    gap: 0.7vw;
+}
+
+.grid{
+    padding-inline: 1.198vw;
+    
+    position: relative;
+    overflow: hidden;
+
+    width: 56.927vw;
+    height: 34.792vw;
+    background-color: #FFF;
+
+    border-radius: 1.563vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imageGrid1{
+    position: absolute;
+    width: 22.934vw;
+    object-fit: cover;
+    bottom: 0;
+    left: -1.5vw;
+}
+
+.title{
+    position: absolute;
+    top: 6.875vw;
+    left: 1.198vw;
+    opacity: 69%;
+}
+.title2{
+    position: absolute;
+    top: 13.438vw;
+    opacity: 42%;
+}
+
+.paragraphGrid1{
+    position: absolute;
+
+    bottom: 7.552vw;
+    right: 1.927vw;
+    text-align: right;
+}
+
+.circles{
+    position: absolute;
+    bottom: 5.26vw;
+    right: 18.219vw;
+}
+.button{
+    position: absolute;
+    bottom: 1.563vw;
+    right: 1.927vw;
+}
+
+
+
+
+
+
+.grid2{
+    padding-inline: 1.719vw;
+    position: relative;
+    width: 39.177vw;
+    height: 34.792vw;
+    background-color: #fff;
+
+    border-radius: 1.563vw;
+
+
+    z-index: 10;
+}  
+.grid2 img{
+    position: absolute;
+    bottom: 0;
+    left: -2.5vw;
+
+    width: 32.656vw;
+
+    z-index: -1;
+}
+
+.grid2 h1{
+    margin-top: 2.031vw;
+    text-align: center;
+}
+
+.grid2 p{
+    text-align: right;
+}
+
+.buttonGrid2{
+    float: right;
+    margin-top: 1.302vw;
+}
+
+
+
+
