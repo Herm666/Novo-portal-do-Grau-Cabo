@@ -1,0 +1,65 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 7.083vw;
+    /* background-color: red; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 2.031vw;
+
+    z-index: 999;
+}
+
+.nav img{
+    width: 12.141vw;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.2vw;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000;
+
+    z-index: 999;
+}
+.line{
+    display: block;
+    width: 7.76vw;
+    height: 0.25vw;
+    background-color: #000;
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+
+    display: flex;
+}
+
+.block{
+    width: 25dvw;
+    height: 0vw;
+    background-color: #000;
+}

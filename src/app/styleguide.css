@@ -2,7 +2,7 @@ section{
     padding-inline: 1.875vw;
 }
 body{
-    background-color: #000;
+    background: url("../../public/bgHero.jpg") no-repeat center/cover;
 }
 h1{
     font-size: 8.177vw;

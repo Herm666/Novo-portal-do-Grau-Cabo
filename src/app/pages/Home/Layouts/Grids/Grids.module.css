@@ -1,6 +1,6 @@
 .container{
     margin-top: 6.146vw;
-
+    height: 89dvh;
 }
 .grids{
     display: flex;
@@ -10,6 +10,8 @@
     margin-top: 0.7vw;
 }
 
+
+
 .grid{
     padding-inline: 1.198vw;
     
@@ -18,7 +20,7 @@
 
     width: 56.927vw;
     height: 34.792vw;
-    background-color: #FFF;
+    background-color: #fff;
 
     border-radius: 1.563vw;
 
