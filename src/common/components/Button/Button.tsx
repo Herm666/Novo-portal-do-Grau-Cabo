@@ -6,17 +6,16 @@ import styles from './Button.module.css'
 
 interface IProps {
     click: () => void
-    width: string
-    height: string
+   
     className: string
 }
 
-export default function Button({ click, height, width, className }: IProps) {
+export default function Button({ click, className }: IProps) {
 
 
 
     return (
-        <button style={{ width: width, height: height }} onClick={() => { click() }} className={`${styles.button} ${className}`} onMouseEnter={()=> hover({className: className})} onMouseLeave={()=> hoverOut({className: className})}>
+        <button onClick={() => { click() }} className={`${styles.button} ${className}`} onMouseEnter={()=> hover({className: className})} onMouseLeave={()=> hoverOut({className: className})}>
          
             <p>acesssar</p>
             

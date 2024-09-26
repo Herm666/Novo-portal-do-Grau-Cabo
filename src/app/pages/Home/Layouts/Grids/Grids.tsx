@@ -18,7 +18,7 @@ export default function Grids() {
                         estudantil
                     </p>
                     <div className={styles.button}>
-                        <Button className='btnGrid1' width='13.75vw' height='4.635vw' click={() => { Transition({ to: "/" }) }} />
+                        <Button className='btnGrid1' click={() => { Transition({ to: "/" }) }} />
                     </div>
 
                     <svg
@@ -43,18 +43,32 @@ export default function Grids() {
                 </div>
                 <div className={styles.grid2}>
                     <h1 className='small'>pedagógico</h1>
-                    <p>
+                    <p className={styles.paragraphGrid2}>
                         inscrições para recuperações <br />
                         vizualizar suas notas <br />
                         avaliar coordenador
                     </p>
                     <div className={styles.buttonGrid2}>
-
-                    <Button className='btnGrid2' width='10.863vw' height='3.662vw' click={() => {return}}/>
+                        <Button className='btnGrid2' click={() => { return }} />
                     </div>
-                    <img src="/woman.png" alt="" />
+                    <img src="/woman.png" alt="woman 3d icon" />
+
+                    <svg className={styles.circlesGrid2} width="10.063vw" height="9.792vw" viewBox="0 0 270 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="33.6566" cy="153.873" r="24.5" transform="rotate(-31.259 33.6566 153.873)" fill="black" />
+                        <circle cx="33.6566" cy="153.873" r="24.5" transform="rotate(-31.259 33.6566 153.873)" fill="black" />
+                        <circle cx="142.313" cy="72.7076" r="24.5" transform="rotate(-31.259 142.313 72.7076)" fill="black" />
+                        <circle cx="142.313" cy="72.7076" r="24.5" transform="rotate(-31.259 142.313 72.7076)" fill="black" />
+                        <circle cx="253.156" cy="16.8279" r="12.25" transform="rotate(-31.259 253.156 16.8279)" fill="black" />
+                        <circle cx="253.156" cy="16.8279" r="12.25" transform="rotate(-31.259 253.156 16.8279)" fill="black" />
+                    </svg>
+
                 </div>
+
             </div>
+                <div className={styles.grids}>
+                    <div className={styles.grid3}></div>
+                    <div className={styles.grid4}></div>
+                </div>
         </section>
     )
 }

@@ -22,7 +22,7 @@ export function hover({className}:IProps){
     })
 
     gsap.to(`.${className} svg:last-of-type`,{
-        bottom: "1.4vw",
+        bottom: "1.8vw",
         right: "2vw",
         duration: .5,
         opacity: 1,

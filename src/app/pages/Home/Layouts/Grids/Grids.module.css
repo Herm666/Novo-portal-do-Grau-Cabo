@@ -1,7 +1,13 @@
-.grids{
+.container{
     margin-top: 6.146vw;
+
+}
+.grids{
     display: flex;
     gap: 0.7vw;
+}
+.grids:last-of-type{
+    margin-top: 0.7vw;
 }
 
 .grid{
@@ -57,6 +63,9 @@
     position: absolute;
     bottom: 1.563vw;
     right: 1.927vw;
+
+    width: 13.75vw;
+    height: 4.635vw;
 }
 
 
@@ -91,15 +100,36 @@
     text-align: center;
 }
 
-.grid2 p{
+.paragraphGrid2{
     text-align: right;
 }
 
 .buttonGrid2{
     float: right;
     margin-top: 1.302vw;
+    width: 12.75vw;
+    height: 4.635vw;
+}
+
+.circlesGrid2{
+    position: absolute;
+    top: 7.604vw;
+    left: 8.323vw;
+    z-index: -2;
 }
 
 
-
+.grid3{
+  
+    width: 56.927vw;
+    height: 13.75vw;
+    background-color: #fff;
+    border-radius: 1.563vw;
+}
+.grid4{
+    width: 39.177vw;
+    height: 13.75vw;
+    background-color: #fff;
+    border-radius: 1.563vw;
+}
 
