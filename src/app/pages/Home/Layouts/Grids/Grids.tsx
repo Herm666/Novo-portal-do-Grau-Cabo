@@ -65,10 +65,37 @@ export default function Grids() {
                 </div>
 
             </div>
-                <div className={styles.grids}>
-                    <div className={styles.grid3}></div>
-                    <div className={styles.grid4}></div>
+            <div className={styles.grids}>
+
+                <div className={styles.grid3}>
+                    <h1 className='small'>empregabilidade</h1>
+                    <p>
+                        localize vagas de empregos <br />
+                        ou estágios em sua area.
+                    </p>
+
+                    <div className={styles.buttonGrid3}>
+                        <Button className='buttonGrid3' click={() => { return }} />
+                    </div>
+
+                    <img src="/man.png" alt="man icon" />
                 </div>
+
+                <div className={styles.grid4}>
+                    <h1 className='small'>central</h1>
+                    <h4>de relacionamento</h4>
+                    <p>
+                        negocie da melhor <br />
+                        forma
+                    </p>
+                    
+                    <div className={styles.buttonGrid4}>
+                        <Button className='buttonGrid4' click={()=> {return}}/>
+                    </div>
+
+                
+                </div>
+            </div>
         </section>
     )
 }

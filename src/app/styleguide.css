@@ -4,6 +4,12 @@ section{
 body{
     background: url("../../public/bgHero.jpg") no-repeat center/cover;
 }
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
 h1{
     font-size: 8.177vw;
     font-weight: 900;
@@ -11,6 +17,12 @@ h1{
 }
 h1.small{
     font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 1.25vw;
     font-weight: 900;
     text-transform: uppercase;
 }

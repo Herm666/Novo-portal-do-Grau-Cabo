@@ -6,7 +6,7 @@ import Hero from "./layouts/Hero";
 export default function Enter() {
   return (
     <>
-    <PageTransition heightInitial="0dvh" heightInitialBlocks="0dvh"/>
+    <PageTransition heightInitial="100dvh" heightInitialBlocks="100dvh"/>
       <main>
         <Hero />
       </main>

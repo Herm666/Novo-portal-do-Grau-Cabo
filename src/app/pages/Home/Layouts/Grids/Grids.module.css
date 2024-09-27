@@ -1,6 +1,6 @@
 .container{
     margin-top: 6.146vw;
-    height: 89dvh;
+    height: 55vw;
 }
 .grids{
     display: flex;
@@ -73,8 +73,6 @@
 
 
 
-
-
 .grid2{
     padding-inline: 1.719vw;
     position: relative;
@@ -122,16 +120,52 @@
 
 
 .grid3{
-  
+    
+    position: relative;
+
+    padding-inline: 1.25vw;
     width: 56.927vw;
-    height: 13.75vw;
-    background-color: #fff;
-    border-radius: 1.563vw;
-}
-.grid4{
-    width: 39.177vw;
-    height: 13.75vw;
+    height: 14.75vw;
     background-color: #fff;
     border-radius: 1.563vw;
 }
 
+.grid3 img{
+
+    width: 12.719vw;
+    object-fit: cover;
+
+    position: absolute;
+    right: -2vw;
+    bottom: 1vw;
+}
+
+.buttonGrid3{
+    margin-top: 1vw;
+    width: 13.75vw;
+    height: 4.635vw;
+}
+
+.grid4{
+    position: relative;
+    padding-inline: 1.25vw;
+    width: 39.177vw;
+    height: 14.75vw;
+    background-color: #fff;
+    border-radius: 1.563vw;
+}
+
+.grid4 h4{
+    position: absolute;
+    top: 4.7vw;
+    left: 2vw;
+}
+.grid4 p{
+    padding: 1vw;
+}
+
+.buttonGrid4{
+    float: right;
+    width: 13.75vw;
+    height: 4.635vw;
+}

@@ -4,6 +4,7 @@ import { CloseNav, OpenNav } from '@/common/animatons/OpenNav'
 import styles from './Nav.module.css'
 import Overlay from './Overlay'
 import { useState } from 'react'
+import { Transition } from '@/common/animatons/Transition'
 
 export default function Nav() {
 
@@ -23,7 +24,7 @@ export default function Nav() {
                 menu
             </button>
 
-            <img src="/logo.png" alt="" />
+            <img src="/logo.png" alt="logo Grau Técnico" onClick={()=> Transition({to: "/"})}/>
 
             <Overlay/>
         </nav>
