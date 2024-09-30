@@ -1,3 +1,4 @@
+import Menu from './Menu'
 import styles from './Nav.module.css'
 
 export default function Overlay() {
@@ -7,6 +8,8 @@ export default function Overlay() {
             <div className={styles.block}></div>
             <div className={styles.block}></div>
             <div className={styles.block}></div>
+
+            <Menu/>
         </div>
     )
 }

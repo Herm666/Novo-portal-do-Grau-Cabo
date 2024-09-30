@@ -18,7 +18,7 @@ export default function Grids() {
                         estudantil
                     </p>
                     <div className={styles.button}>
-                        <Button className='btnGrid1' click={() => { Transition({ to: "/" }) }} />
+                        <Button className='btnGrid1' click={() => { Transition({ to: "/pages/Secretaria" }) }} />
                     </div>
 
                     <svg
@@ -37,7 +37,6 @@ export default function Grids() {
                         <circle cx="12.5" cy="128.5" r="12.25" fill="black" />
                         <circle cx="353.25" cy="34.25" r="12.25" fill="black" />
                         <circle cx="353.25" cy="34.25" r="12.25" fill="black" />
-
                     </svg>
 
                 </div>
@@ -93,7 +92,6 @@ export default function Grids() {
                         <Button className='buttonGrid4' click={()=> {return}}/>
                     </div>
 
-                
                 </div>
             </div>
         </section>

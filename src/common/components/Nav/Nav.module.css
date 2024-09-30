@@ -64,3 +64,36 @@
     height: 0vw;
     background-color: #000;
 }
+
+.menu{
+    position: absolute;
+    top: 7.667vw;
+    left: 2.281vw;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5.938vw;
+}
+
+.lineMenu{
+    height: 0.5vw;
+    width: 0vw;
+    background-color: #fff;
+}
+.links{
+    overflow: hidden;
+    /* background-color: red; */
+}
+.links li{
+    cursor: pointer;
+    transform: translateY(200%);
+    color: #fff;
+    font-size: 3.333vw;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    white-space: nowrap;
+}

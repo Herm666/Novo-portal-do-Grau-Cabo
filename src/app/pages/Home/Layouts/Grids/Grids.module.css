@@ -157,15 +157,17 @@
 
 .grid4 h4{
     position: absolute;
-    top: 4.7vw;
-    left: 2vw;
+    top: 5vw;
+    left: 2.5vw;
 }
 .grid4 p{
     padding: 1vw;
 }
 
 .buttonGrid4{
-    float: right;
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
     width: 13.75vw;
     height: 4.635vw;
 }
