@@ -18,7 +18,7 @@ export default function Grids() {
                     <div className={styles.bottomGrid1}>
                         <div className={styles.lineGrid1}></div>
                         <div className={styles.button}>
-                            <Button text='acesssar' className='buttonGrid1' click={() => { Transition({to: "/pages/Secretaria/StudentCard"}) }} />
+                            <Button text='acesssar' className='buttonGrid1' click={() => { Transition({to: "/pages/Secretary/StudentCard"}) }} />
                         </div>
                     </div>
 
@@ -42,7 +42,7 @@ export default function Grids() {
                     <div className={styles.bottomGrid2}>
                         <div className={styles.lineGrid2}></div>
                         <div className={styles.button}>
-                            <Button text='acesssar' className='buttonGrid2' click={() => { Transition({to: "/pages/Secretaria/Declaration"}) }} />
+                            <Button text='acesssar' className='buttonGrid2' click={() => { Transition({to: "/pages/Secretary/Declaration"}) }} />
                         </div>
                     </div>
 

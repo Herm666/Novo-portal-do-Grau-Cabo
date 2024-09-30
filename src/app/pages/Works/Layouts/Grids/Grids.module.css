@@ -1,0 +1,195 @@
+.container{
+    margin-top: 6.146vw;
+    height: 55vw;
+}
+.grids{
+    display: flex;
+    gap: 0.7vw;
+}
+.grids:last-of-type{
+    margin-top: 0.7vw;
+}
+
+
+
+.grid{
+    padding-inline: 1.198vw;
+    
+    position: relative;
+    overflow: hidden;
+
+    width: 56.927vw;
+    height: 34.792vw;
+    background-color: #fff;
+
+    border-radius: 1.563vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imageGrid1{
+    position: absolute;
+    width: 22.934vw;
+    object-fit: cover;
+    bottom: 0;
+    left: -1.5vw;
+}
+
+
+.bubblesGrid1{
+    position: absolute;
+    top: 15.729vw;
+    right: 18.021vw;
+}
+
+.abre{
+    width: 11.771vw;
+    margin-left: 12vw;
+}
+
+.title{
+    position: absolute;
+    top: 6.875vw;
+    left: 1.198vw;
+    opacity: 69%;
+}
+
+
+.paragraphGrid1{
+    position: absolute;
+    top: 13vw;
+    right: 1.4vw;
+    text-align: right;
+}
+
+.circles{
+    position: absolute;
+    bottom: 5.26vw;
+    right: 18.219vw;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    gap: 4.74vw;
+
+    position: absolute;
+    bottom: 1vw;
+    right: 1.3vw;
+}
+.line{
+    width: 15.313vw;
+    height: 0.3vw;
+    background-color: #000;
+}
+.button{
+
+    width: 13.75vw;
+    height: 4.635vw;
+}
+
+
+
+
+.grid2{
+    padding-inline: 1.719vw;
+    position: relative;
+    width: 39.177vw;
+    height: 34.792vw;
+    background-color: #fff;
+
+    border-radius: 1.563vw;
+
+
+    z-index: 10;
+}  
+.imageGrid2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 20.156vw;
+}
+
+.ciee{
+    width: 8.021vw;
+    margin-left: 12vw;
+}
+
+.grid2 h1{
+}
+
+.paragraphGrid2{
+    margin-top: 3vw;
+    margin-left: 1vw;
+    text-align: right;
+}
+
+.buttonGrid2{
+    float: right;
+    margin-top: 1.302vw;
+    width: 12.75vw;
+    height: 4.635vw;
+}
+
+.circlesGrid2{
+    position: absolute;
+    top: 7.604vw;
+    left: 8.323vw;
+    z-index: -2;
+}
+
+
+.grid3{
+    
+    position: relative;
+
+    padding-inline: 1.25vw;
+    width: 56.927vw;
+    height: 14.75vw;
+    background-color: #fff;
+    border-radius: 1.563vw;
+}
+
+.grid3 img{
+
+    width: 12.719vw;
+    object-fit: cover;
+
+    position: absolute;
+    right: -2vw;
+    bottom: 1vw;
+}
+
+.buttonGrid3{
+    margin-top: 1vw;
+    width: 13.75vw;
+    height: 4.635vw;
+}
+
+.grid4{
+    position: relative;
+    padding-inline: 1.25vw;
+    width: 39.177vw;
+    height: 14.75vw;
+    background-color: #fff;
+    border-radius: 1.563vw;
+}
+
+.grid4 h4{
+    position: absolute;
+    top: 5vw;
+    left: 2.5vw;
+}
+.grid4 p{
+    padding: 1vw;
+}
+
+.buttonGrid4{
+    position: absolute;
+    bottom: 1vw;
+    right: 1vw;
+    width: 13.75vw;
+    height: 4.635vw;
+}

@@ -1,0 +1,19 @@
+.declaration{
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+}
+
+.frame{
+    width: 50vw;
+    height: 98dvh;
+}
+
+.button{
+    position: absolute;
+    bottom: 3vw;
+    right: 5vw;
+
+    width: 13.75vw;
+    height: 4.635vw;
+}
