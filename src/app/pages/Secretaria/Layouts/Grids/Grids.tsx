@@ -1,5 +1,6 @@
 import Button from '@/common/components/Button'
 import styles from './Grids.module.css'
+import { Transition } from '@/common/animatons/Transition'
 
 export default function Grids() {
     return (
@@ -16,8 +17,8 @@ export default function Grids() {
 
                     <div className={styles.bottomGrid1}>
                         <div className={styles.lineGrid1}></div>
-                        <div className={styles.buttonGrid1}>
-                            <Button className='buttonGrid1' click={() => { return }} />
+                        <div className={styles.button}>
+                            <Button text='acesssar' className='buttonGrid1' click={() => { Transition({to: "/pages/Secretaria/StudentCard"}) }} />
                         </div>
                     </div>
 
@@ -28,7 +29,31 @@ export default function Grids() {
                     </svg>
 
                 </div>
-                <div className={styles.grid2}></div>
+
+                <div className={styles.grid2}>
+                    <h1 className="average">declarações</h1>
+                    <p className={styles.paragraphGrid2}>Pedidos de declarações <br />
+                        pedidos de carteira <br />
+                        estudantil
+                    </p>
+
+                    <img className={styles.declaration} src="/secretaria/declaration.png" alt="" />
+
+                    <div className={styles.bottomGrid2}>
+                        <div className={styles.lineGrid2}></div>
+                        <div className={styles.button}>
+                            <Button text='acesssar' className='buttonGrid2' click={() => { Transition({to: "/pages/Secretaria/Declaration"}) }} />
+                        </div>
+                    </div>
+
+                    <svg className={styles.bubblesGrid2} width="16.875vw" height="11.979vw" viewBox="0 0 324 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="64.105" cy="101.381" r="24.5" transform="rotate(-18.6575 64.105 101.381)" fill="black" />
+                        <circle cx="187.851" cy="45.8757" r="24.5" transform="rotate(-18.6575 187.851 45.8757)" fill="black" />
+                        <circle cx="15.5251" cy="213.831" r="12.25" transform="rotate(-18.6575 15.5251 213.831)" fill="black" />
+                        <circle cx="308.217" cy="15.5252" r="12.25" transform="rotate(-18.6575 308.217 15.5252)" fill="black" />
+                    </svg>
+
+                </div>
             </div>
         </section>
     )

@@ -16,7 +16,7 @@ export default function Hero() {
             <img src="/logo.png" alt="Logo grau técnico" />
 
             <div className={styles.button} >
-                <Button className='btnHero' click={()=> {Transition({to: "/pages/Home"})} }/>
+                <Button text='acesssar' className='btnHero' click={()=> {Transition({to: "/pages/Home"})} }/>
             </div>
         </section>
     )

@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "900"] })
 export const metadata: Metadata = {
   title: "Grau Técnico portal",
   description: "Developed By Douglas Rodrigues",
+  icons: '/logo.png'
 };
 
 export default function RootLayout({

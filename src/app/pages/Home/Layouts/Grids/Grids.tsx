@@ -18,7 +18,7 @@ export default function Grids() {
                         estudantil
                     </p>
                     <div className={styles.button}>
-                        <Button className='btnGrid1' click={() => { Transition({ to: "/pages/Secretaria" }) }} />
+                        <Button text='acesssar' className='btnGrid1' click={() => { Transition({ to: "/pages/Secretaria" }) }} />
                     </div>
 
                     <svg
@@ -48,7 +48,7 @@ export default function Grids() {
                         avaliar coordenador
                     </p>
                     <div className={styles.buttonGrid2}>
-                        <Button className='btnGrid2' click={() => { return }} />
+                        <Button text='acesssar' className='btnGrid2' click={() => { return }} />
                     </div>
                     <img src="/woman.png" alt="woman 3d icon" />
 
@@ -62,7 +62,6 @@ export default function Grids() {
                     </svg>
 
                 </div>
-
             </div>
             <div className={styles.grids}>
 
@@ -74,7 +73,7 @@ export default function Grids() {
                     </p>
 
                     <div className={styles.buttonGrid3}>
-                        <Button className='buttonGrid3' click={() => { return }} />
+                        <Button text='acesssar' className='buttonGrid3' click={() => { return }} />
                     </div>
 
                     <img src="/man.png" alt="man icon" />
@@ -87,9 +86,9 @@ export default function Grids() {
                         negocie da melhor <br />
                         forma
                     </p>
-                    
+
                     <div className={styles.buttonGrid4}>
-                        <Button className='buttonGrid4' click={()=> {return}}/>
+                        <Button text='acesssar' className='buttonGrid4' click={() => { return }} />
                     </div>
 
                 </div>

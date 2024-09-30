@@ -18,6 +18,7 @@
 
 
 }
+.grid2 h1,
 .grid1 h1{
     margin-top: 2.031vw;
 }
@@ -27,6 +28,7 @@
     top: 22vw;
     right: 10vw;
 }
+
 .paragraphGrid1{
     margin-top: 4.427vw;
     text-align: right;
@@ -42,7 +44,7 @@
     object-fit: cover;
 
 }
-.buttonGrid1{
+.button{
     width: 13.75vw;
     height: 4.635vw;
 }
@@ -60,8 +62,40 @@
 }
 
 .grid2{
+    position: relative;
+    padding-inline: 3.073vw;
     width: 59.375vw;
     height: 48.281vw;
     background-color: #fff;
     border-radius: 1.563vw;
+}
+.paragraphGrid2{
+    margin-top: 8.333vw;
+    text-align: right;
+}
+
+.declaration{
+    width: 27vw;
+    position: absolute;
+    top: 4vw;
+    left: -1vw;
+}
+
+.bottomGrid2{
+    display: flex;
+    align-items: center;
+    gap: 3.125vw;
+    position: absolute;
+    bottom: 4.323vw;
+}
+.lineGrid2{
+    width: 32.656vw;
+    height: 0.3vw;
+    background-color: #000;
+}
+
+.bubblesGrid2{
+    position: absolute;
+    top: 20vw;
+    right: 20vw;
 }
