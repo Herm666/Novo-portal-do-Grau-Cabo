@@ -1,4 +1,4 @@
-.declaration{
+.abre{
     display: grid;
     place-items: center;
     height: 100dvh;
@@ -6,7 +6,7 @@
 
 .frame{
     border: none;
-    width: 50vw;
+    width: 90vw;
     height: 98dvh;
 }
 

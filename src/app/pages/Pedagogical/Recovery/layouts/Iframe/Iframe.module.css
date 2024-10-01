@@ -1,10 +1,11 @@
-.declaration{
+.recovery{
     display: grid;
     place-items: center;
     height: 100dvh;
 }
 
 .frame{
+    border: none;
     width: 50vw;
     height: 98dvh;
 }

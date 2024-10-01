@@ -10,6 +10,11 @@
     margin-top: 0.7vw;
 }
 
+.subTitle{
+    position: absolute;
+    top: 8.438vw;
+    left: 1.5vw;
+}
 
 
 .grid{
@@ -104,6 +109,9 @@
 
     z-index: 10;
 }  
+
+
+
 .imageGrid2{
     position: absolute;
     bottom: 0;
@@ -115,6 +123,7 @@
 .ciee{
     width: 8.021vw;
     margin-left: 12vw;
+
 }
 
 .grid2 h1{
@@ -154,12 +163,19 @@
 
 .grid3 img{
 
-    width: 12.719vw;
+    width: 8.789vw;
     object-fit: cover;
 
     position: absolute;
-    right: -2vw;
-    bottom: 1vw;
+    left: 2vw;
+    bottom: 0vw;
+}
+
+
+.paragraphGrid3{
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
 }
 
 .buttonGrid3{
@@ -183,13 +199,30 @@
     left: 2.5vw;
 }
 .grid4 p{
-    padding: 1vw;
+    /* padding: 1vw; */
 }
+
+.grid4 img{
+    position: absolute;
+    right: 2vw;
+    bottom: 0;
+    width: 10.781vw;
+
+    z-index: 9;
+}
+
+.bubblesGrid3{
+    position: absolute;
+    top: 0;
+    left: 25vw;
+}
+
+
 
 .buttonGrid4{
     position: absolute;
     bottom: 1vw;
-    right: 1vw;
+    left: 1vw;
     width: 13.75vw;
     height: 4.635vw;
 }

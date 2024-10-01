@@ -5,6 +5,7 @@
 }
 
 .frame{
+    border: none;
     width: 50vw;
     height: 98dvh;
 }
