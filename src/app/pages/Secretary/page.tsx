@@ -4,6 +4,7 @@ import Nav from "@/common/components/Nav";
 import PageTransition from "@/common/components/PageTransition";
 import { useLayoutEffect } from "react";
 import Grids from "./Layouts/Grids";
+import VideoBackground from "@/common/components/VideoBackground";
 
 export default function secretaria() {
 
@@ -18,6 +19,7 @@ export default function secretaria() {
                 <Nav />
             </header>
             <main>
+                <VideoBackground/>
                 <Grids/>
             </main>
         </>

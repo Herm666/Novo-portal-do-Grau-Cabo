@@ -6,7 +6,11 @@ import Overlay from './Overlay'
 import { useState } from 'react'
 import { Transition } from '@/common/animatons/Transition'
 
-export default function Nav() {
+interface IProps{
+    page: string
+}
+
+export default function Nav({page}: IProps) {
 
     const [isOpen, setIsOpen] = useState<boolean>(true)
 
@@ -26,7 +30,7 @@ export default function Nav() {
 
             <img src="/logo.png" alt="logo Grau Técnico" onClick={()=> Transition({to: "/"})}/>
 
-            <Overlay/>
+            <Overlay page={page}/>
         </nav>
     )
 }

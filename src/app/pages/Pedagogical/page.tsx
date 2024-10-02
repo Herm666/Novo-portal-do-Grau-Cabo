@@ -4,6 +4,7 @@ import Nav from "@/common/components/Nav"
 import PageTransition from "@/common/components/PageTransition"
 import { useLayoutEffect } from "react"
 import Grids from "./Layouts/Grids"
+import VideoBackground from "@/common/components/VideoBackground"
 
 export default function Pedagogical() {
 
@@ -19,6 +20,7 @@ export default function Pedagogical() {
                 <Nav/>
             </header>
             <main>
+                <VideoBackground/>
                 <Grids/>
             </main>
         </>

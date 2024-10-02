@@ -1,7 +1,11 @@
 import Menu from './Menu'
 import styles from './Nav.module.css'
 
-export default function Overlay() {
+interface IProps{
+    page: string
+}
+
+export default function Overlay({page}: IProps) {
     return(
         <div className={styles.overlay}>
             <div className={styles.block}></div>
@@ -9,7 +13,7 @@ export default function Overlay() {
             <div className={styles.block}></div>
             <div className={styles.block}></div>
 
-            <Menu/>
+            <Menu page={page}/>
         </div>
     )
 }

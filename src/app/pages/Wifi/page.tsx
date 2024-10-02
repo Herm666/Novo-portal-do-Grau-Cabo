@@ -2,9 +2,12 @@
 import { TransitionOut } from "@/common/animatons/Transition";
 import PageTransition from "@/common/components/PageTransition";
 import { useLayoutEffect } from "react";
-import Grids from "./Layouts/Grids";
+
+// import Grids from "./Layouts/Grids";
+
 import Nav from "@/common/components/Nav";
 import VideoBackground from "@/common/components/VideoBackground";
+import Card from "./Card";
 
 export default function Home() {
     
@@ -16,11 +19,11 @@ export default function Home() {
     <>
     <PageTransition heightInitial="100dvh" heightInitialBlocks="100dvh"/>
       <header>
-        <Nav/>
+        <Nav page="wifi"/>
       </header>
       <main>
         <VideoBackground/>
-        <Grids/>
+        <Card/>
       </main>
     </>
   );

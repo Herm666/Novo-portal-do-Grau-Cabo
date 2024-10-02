@@ -5,6 +5,7 @@ import Card from "./layouts/Card";
 import PageTransition from "@/common/components/PageTransition";
 import { useLayoutEffect } from "react";
 import { TransitionOut } from "@/common/animatons/Transition";
+import VideoBackground from "@/common/components/VideoBackground";
 
 export default function Relationship() {
 
@@ -20,6 +21,7 @@ export default function Relationship() {
                 <Nav />
             </header>
             <main>
+                <VideoBackground/>
                 <Card />
             </main>
         </>

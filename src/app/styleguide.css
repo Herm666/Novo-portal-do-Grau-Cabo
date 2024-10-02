@@ -2,7 +2,7 @@ section{
     padding-inline: 1.875vw;
 }
 body{
-    background: url("../../public/bgHero.jpg") no-repeat center/cover;
+    /* background: url("../../public/bgHero.mp4") no-repeat center/cover; */
 }
 
 ::-webkit-scrollbar{
