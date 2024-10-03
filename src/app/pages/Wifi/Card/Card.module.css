@@ -54,3 +54,33 @@
     top: 1vw;
     right: 9.479vw;
 }
+
+.password,
+.wifi{
+
+    position: absolute;
+
+    display: grid;
+    place-items: center;
+
+    background-color: #000;
+    color: #fff;
+
+    width: 13.906vw;
+    height: 13.49vw;
+    border-radius: 1.563vw;
+}
+
+.wifi{
+    top: 4.167vw;
+    left: 41.198vw;
+}
+
+.password{
+    top: 9.271vw;
+    left: 55.885vw;
+}
+
+.arrow{
+    transform: rotate(134deg);
+}
