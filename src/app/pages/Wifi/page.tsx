@@ -3,8 +3,6 @@ import { TransitionOut } from "@/common/animatons/Transition";
 import PageTransition from "@/common/components/PageTransition";
 import { useLayoutEffect } from "react";
 
-// import Grids from "./Layouts/Grids";
-
 import Nav from "@/common/components/Nav";
 import VideoBackground from "@/common/components/VideoBackground";
 import Card from "./Card";

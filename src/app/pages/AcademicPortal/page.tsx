@@ -17,7 +17,7 @@ export default function Pedagogical() {
         <>
             <PageTransition heightInitial="100dvh" heightInitialBlocks="100dvh" />
             <header>
-                <Nav page="pedagogical"/>
+                <Nav page="portal"/>
             </header>
             <main>
                 <VideoBackground/>

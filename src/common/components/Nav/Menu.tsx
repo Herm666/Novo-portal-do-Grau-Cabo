@@ -40,7 +40,7 @@ export default function Menu({page}: IProps) {
                         opacity: page == "portal" ? 0.5 : 1,
                         pointerEvents: page == "portal" ? "none" : "all",
                     }
-                }>portal acadêmico</li>
+                }  onClick={()=> { Transition({to: '/pages/AcademicPortal'}) }}>portal acadêmico</li>
             </div>
             
         </menu>
