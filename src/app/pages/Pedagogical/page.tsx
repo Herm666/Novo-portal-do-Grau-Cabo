@@ -5,6 +5,7 @@ import PageTransition from "@/common/components/PageTransition"
 import { useLayoutEffect } from "react"
 import Grids from "./Layouts/Grids"
 import VideoBackground from "@/common/components/VideoBackground"
+import backToHome from "@/common/functions/backToHome"
 
 export default function Pedagogical() {
 
@@ -12,6 +13,10 @@ export default function Pedagogical() {
     useLayoutEffect(() => {
         TransitionOut()
     }, [])
+    
+    setTimeout(()=>{
+        backToHome() 
+    }, 20000)  
 
     return (
         <>

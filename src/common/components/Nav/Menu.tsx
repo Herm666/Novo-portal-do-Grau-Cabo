@@ -34,7 +34,7 @@ export default function Menu({page}: IProps) {
                         opacity: page == "contatos" ? 0.5 : 1,
                         pointerEvents: page == "contatos" ? "none" : "all",
                     }
-                }>contatos</li>
+                } onClick={()=> { Transition({to: '/pages/Contact'}) }}>contatos</li>
                 <li style={
                     {
                         opacity: page == "portal" ? 0.5 : 1,
