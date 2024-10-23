@@ -7,6 +7,11 @@
     place-items: center;
 }
 
+.hero img{
+    margin-top: 7vw;
+    width: 70vw;
+}
+
 .button{
     width: 15.046vw;
     height: 5.072vw;
