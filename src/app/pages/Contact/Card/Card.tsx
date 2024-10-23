@@ -85,8 +85,8 @@ export default function Card() {
                 
                 <div ref={refWrapper} className={styles.wrapper}>
                         <div className={styles.horizontalCard1}>
-                            {pedagogical.map((user)=>(
-                                <Info name={user.name} phone={user.phone} status={user.status}/>
+                            {pedagogical.map((user, key)=>(
+                                <Info key={key} name={user.name} phone={user.phone} status={user.status}/>
                             ))}
                         </div>
                         <div className={styles.horizontalCard2}>
@@ -97,8 +97,8 @@ export default function Card() {
                             />
                         </div>
                         <div className={styles.horizontalCard3}>
-                            {central.map((user)=>(
-                                <Info name={user.name} status={user.status} phone={user.phone}/>
+                            {central.map((user, key)=>(
+                                <Info key={key} name={user.name} status={user.status} phone={user.phone}/>
                             ))}
                         </div>
                         <div className={styles.horizontalCard2}>

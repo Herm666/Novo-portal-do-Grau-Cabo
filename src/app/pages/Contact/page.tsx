@@ -6,7 +6,6 @@ import { useLayoutEffect } from "react";
 import Nav from "@/common/components/Nav";
 import VideoBackground from "@/common/components/VideoBackground";
 import Card from "./Card";
-import backToHome from "@/common/functions/backToHome";
 
 export default function Contact() {
     
