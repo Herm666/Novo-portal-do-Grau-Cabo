@@ -31,6 +31,12 @@ h4{
     text-transform: uppercase;
 }
 
+h5{
+    font-size: 0.781vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 p{
     text-transform: uppercase;
     font-size: 0.977vw;

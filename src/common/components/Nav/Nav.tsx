@@ -39,8 +39,8 @@ export default function Nav({ page }: IProps) {
 
             <img src="/logo.png" alt="logo Grau Técnico" onClick={() => Transition({ to: "/" })} />
 
-            {/* Exibir overlay ou menu com base no estado */}
-            {isOpen && <Overlay page={page} />}
+          
+            <Overlay page={page}/>
         </nav>
     );
 }

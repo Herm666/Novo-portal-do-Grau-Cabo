@@ -15,9 +15,9 @@ export default function Contact() {
     },[])
 
     
-    setTimeout(()=>{
-      backToHome() 
-  }, 20000)  
+  //   setTimeout(()=>{
+  //     backToHome() 
+  // }, 20000)  
 
   return (
     <>
