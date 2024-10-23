@@ -8,9 +8,8 @@ export default function Grids() {
             <div className={styles.grids}>
                 <div className={styles.grid1}>
                     <h1 className='small'>carteira <br /> estudantil</h1>
-                    <p className={styles.paragraphGrid1}>Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
+                    <p className={styles.paragraphGrid1}>Faça sua carteira <br />
+                    estudantil
                     </p>
 
                     <img className={styles.student_card} src="/secretaria/student_card.png" alt="" />
@@ -32,9 +31,8 @@ export default function Grids() {
 
                 <div className={styles.grid2}>
                     <h1 className="average">declarações</h1>
-                    <p className={styles.paragraphGrid2}>Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
+                    <p className={styles.paragraphGrid2}>faça seu pedido de <br />
+                    declaração
                     </p>
 
                     <img className={styles.declaration} src="/secretaria/declaration.png" alt="" />

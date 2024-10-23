@@ -13,9 +13,8 @@ export default function Grids() {
                     <img className={styles.imageGrid1} src="/works/man.png" alt="woman of grau técnico" />
                     <img className={styles.abre} src="/works/abre.png" alt="" />
                     <p className={styles.paragraphGrid1}>
-                        Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
+                    inicie um emprego ou  estágio <br />
+                    com a abre
                     </p>
 
                     <div className={styles.bottom}>
@@ -39,9 +38,8 @@ export default function Grids() {
                     <h1>ciee</h1>
                     <h4 className={styles.subTitle}>centro de integração empresa-escola</h4>
                     <p className={styles.paragraphGrid2}>
-                        inscrições para recuperações <br />
-                        vizualizar suas notas <br />
-                        avaliar coordenador
+                    inicie sua carreira junto <br />
+                    com a ciee
                     </p>
 
                     <div className={styles.bottom}>
@@ -62,8 +60,8 @@ export default function Grids() {
                     <h1 >iel</h1>
                     <h4 className={styles.subTitle}>instituto euvaldo lodi</h4>
                     <p className={styles.paragraphGrid3}>
-                        localize vagas de empregos <br />
-                        ou estágios em sua area.
+                    inicie sua vida com a <br />
+                    iel
                     </p>
 
 
@@ -87,11 +85,6 @@ export default function Grids() {
 
                 <div className={styles.grid4}>
                     <h1 className='small'>instagram</h1>
-                    <p className='small'>
-                        siga-nos no instagram <br />
-                        para ficar por dentro <br />
-                        de todas as informações.
-                    </p>
 
                     <img src="/works/instagram.png" alt="" />
 

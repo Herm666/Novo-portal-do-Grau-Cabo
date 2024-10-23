@@ -9,12 +9,7 @@ export default function Grids() {
 
                 <div className={styles.grid1}>
                     <h1>ead <br /> técnico</h1>
-                    <p className={styles.paragraphGrid1}>
-                        Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
-                    </p>
-
+            
                     <img className={styles.badNote} src="/AcademicPortal/student.png" alt="" />
 
                     <div className={styles.bottomGrid1}>
@@ -28,11 +23,6 @@ export default function Grids() {
 
                 <div className={styles.grid2}>
                     <h1 className="average">portal <br /> acadêmico</h1>
-
-                    <p className={styles.paragraphGrid2}>Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
-                    </p>
 
                     <img className={styles.student2} src="/AcademicPortal/student2.png" alt="" />
 

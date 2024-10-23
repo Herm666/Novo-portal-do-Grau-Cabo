@@ -8,9 +8,8 @@ export default function Card() {
         <section className={styles.container}>
             <div className={styles.card}>
                 <h1 className='large'>acordo <br /> financeiro</h1>
-                <p className={styles.paragraph}>Pedidos de declarações <br />
-                    pedidos de carteira <br />
-                    estudantil
+                <p className={styles.paragraph}>clique para fazer o melhor acordo <br />
+                financeiro específico para você
                 </p>
 
                 <img className={styles.money} src="/relationship/money.png" alt="" />

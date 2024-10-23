@@ -14,7 +14,6 @@ export default function Hero() {
     return (
         <section className={styles.hero}>
             <img src="/logo.png" alt="Logo grau técnico" />
-            <img src="/signature.png" alt=""  className={styles.signature}/>
 
             <div className={styles.button} >
                 <Button text='acesssar' className='btnHero' click={()=> {Transition({to: "/pages/Home"})} }/>

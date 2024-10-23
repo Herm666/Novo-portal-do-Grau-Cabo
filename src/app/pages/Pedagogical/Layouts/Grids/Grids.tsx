@@ -7,11 +7,10 @@ export default function Grids() {
         <section className={styles.container}>
             <div className={styles.grids}>
                 <div className={styles.grid1}>
-                    <h1 className='small'>inscriçãp <br /> recuperação</h1>
+                    <h1 className='small'>inscrição <br /> recuperação</h1>
                     <p className={styles.paragraphGrid1}>
-                        Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
+                    faça a inscrição para sua <br />
+                    recuperação
                     </p>
 
                     <img className={styles.badNote} src="/pedagogical/badNote.png" alt="" />
@@ -33,9 +32,8 @@ export default function Grids() {
 
                 <div className={styles.grid2}>
                     <h1 className="average">vizualizar <br /> notas</h1>
-                    <p className={styles.paragraphGrid2}>Pedidos de declarações <br />
-                        pedidos de carteira <br />
-                        estudantil
+                    <p className={styles.paragraphGrid2}>vizualize suas notas de <br />
+                    maneira fácil e rápida
                     </p>
 
                     <img className={styles.note} src="/pedagogical/note.png" alt="" />
