@@ -45,7 +45,6 @@ export default function Grids() {
                     <p className={styles.paragraphGrid2}>
                         inscrições para recuperações <br />
                         vizualizar suas notas <br />
-                        avaliar coordenador
                     </p>
                     <div className={styles.buttonGrid2}>
                         <Button text='acesssar' className='btnGrid2' click={() => { Transition({to: "/pages/Pedagogical"}) }} />
