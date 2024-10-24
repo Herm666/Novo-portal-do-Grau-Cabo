@@ -8,7 +8,7 @@ export default function Iframe() {
             <div className={styles.button}>
                 <Button className='btnFrame' text='home'  click={()=> { Transition({to: "/"}) }}/>
             </div>
-            <iframe className={styles.frame} src="https://portalacademico.qualinfonet.com.br/grauteccabo/"></iframe>
+            <iframe className={styles.frame} src="https://portalacademico.qualinfonet.com.br/grauteccabo"></iframe>
         </section>
     )
 }
