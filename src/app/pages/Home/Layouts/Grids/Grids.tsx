@@ -18,7 +18,7 @@ export default function Grids() {
                         estudantil
                     </p>
                     <div className={styles.button}>
-                        <Button text='acesssar' className='btnGrid1' click={() => { Transition({ to: "/pages/Secretary" }) }} />
+                        <Button text='acessar' className='btnGrid1' click={() => { Transition({ to: "/pages/Secretary" }) }} />
                     </div>
 
                     <svg
@@ -47,7 +47,7 @@ export default function Grids() {
                         vizualizar suas notas <br />
                     </p>
                     <div className={styles.buttonGrid2}>
-                        <Button text='acesssar' className='btnGrid2' click={() => { Transition({to: "/pages/Pedagogical"}) }} />
+                        <Button text='acessar' className='btnGrid2' click={() => { Transition({to: "/pages/Pedagogical"}) }} />
                     </div>
                     <img src="/woman.png" alt="woman 3d icon" />
 
@@ -72,7 +72,7 @@ export default function Grids() {
                     </p>
 
                     <div className={styles.buttonGrid3}>
-                        <Button text='acesssar' className='buttonGrid3' click={() => { Transition({to: "/pages/Works"}) }} />
+                        <Button text='acessar' className='buttonGrid3' click={() => { Transition({to: "/pages/Works"}) }} />
                     </div>
 
                     <img src="/man.png" alt="man icon" />
@@ -87,7 +87,7 @@ export default function Grids() {
                     </p>
 
                     <div className={styles.buttonGrid4}>
-                        <Button text='acesssar' className='buttonGrid4' click={() => { Transition({to: "/pages/Relationship"}) }} />
+                        <Button text='acessar' className='buttonGrid4' click={() => { Transition({to: "/pages/Relationship"}) }} />
                     </div>
 
                 </div>

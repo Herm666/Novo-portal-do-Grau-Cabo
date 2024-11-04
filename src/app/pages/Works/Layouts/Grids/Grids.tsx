@@ -21,7 +21,7 @@ export default function Grids() {
                         <div className={styles.line}></div>
 
                         <div className={styles.button}>
-                            <Button text='acesssar' className='btnGrid1' click={() => { Transition({ to: "/pages/Works/Abre" }) }} />
+                            <Button text='acessar' className='btnGrid1' click={() => { Transition({ to: "/pages/Works/Abre" }) }} />
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ export default function Grids() {
                         <div className={styles.line}></div>
 
                         <div className={styles.button}>
-                            <Button text='acesssar' className='btnGrid2' click={() => { Transition({ to: "/pages/Works/Ciee" }) }} />
+                            <Button text='acessar' className='btnGrid2' click={() => { Transition({ to: "/pages/Works/Ciee" }) }} />
                         </div>
                     </div>
                     <img className={styles.imageGrid2} src="/works/woman.png" alt="woman 3d icon" />
@@ -71,7 +71,7 @@ export default function Grids() {
                         <div className={styles.line}></div>
 
                         <div className={styles.button}>
-                            <Button text='acesssar' className='btnGrid3' click={() => { Transition({ to: "/pages/Works/Iel" }) }} />
+                            <Button text='acessar' className='btnGrid3' click={() => { Transition({ to: "/pages/Works/Iel" }) }} />
                         </div>
                     </div>
 
@@ -89,7 +89,7 @@ export default function Grids() {
                     <img src="/works/instagram.png" alt="" />
 
                     <div className={styles.buttonGrid4}>
-                        <Button text='acesssar' className='buttonGrid4' click={() => { Transition({ to: "/pages/Works/Instagram" }) }} />
+                        <Button text='acessar' className='buttonGrid4' click={() => { Transition({ to: "/pages/Works/Instagram" }) }} />
                     </div>
 
                 </div>
