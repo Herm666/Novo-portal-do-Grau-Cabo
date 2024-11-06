@@ -3,6 +3,9 @@ import styles from './Grids.module.css'
 import { Transition } from '@/common/animatons/Transition'
 
 export default function Grids() {
+
+    
+
     return (
         <section className={styles.container}>
             <div className={styles.grids}>
@@ -41,7 +44,7 @@ export default function Grids() {
                     <div className={styles.bottomGrid2}>
                         <div className={styles.lineGrid2}></div>
                         <div className={styles.button}>
-                            <Button text='acessar' className='buttonGrid2' click={() => { Transition({ to: "https://portalacademico.qualinfonet.com.br/grauteccabo/" }) }} />
+                            <Button text='acessar' className='buttonGrid2' click={() => { window.open("https://portalacademico.qualinfonet.com.br/grauteccabo/", "_blank")}} />
                         </div>
                     </div>
 
